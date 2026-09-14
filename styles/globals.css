@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+.btn-primary {
+  @apply px-6 py-2 bg-housler-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition;
+}
+
+.btn-secondary {
+  @apply px-6 py-2 bg-housler-accent text-white rounded-lg font-semibold hover:bg-opacity-90 transition;
+}
+
+.btn-outline {
+  @apply px-6 py-2 border-2 border-housler-primary text-housler-primary rounded-lg font-semibold hover:bg-housler-primary hover:text-white transition;
+}
